@@ -69,7 +69,74 @@ This means we must:
 
 ---
 
-## Voices Across History
+## Addressing the Historical Objection: "But What About the Crusades?"
+
+Many point to the Crusades, the Inquisition, colonial violence, and other atrocities committed by those claiming to follow Christ as evidence that biblical ethics are dangerous or hypocritical. This objection deserves a direct and honest answer.
+
+**The violence was the departure from Scripture, not the fruit of it.**
+
+From the very beginning, the Bible records humanity's persistent demand for power-based solutions — and God's persistent call away from them. When Israel demanded an earthly king in 1 Samuel 8, YHWH had Samuel warn the people exactly what concentrated human power would produce: conscription, taxation, seizure of property, and servitude. The people refused to listen: *"No! We want a king over us. Then we will be like all the other nations, with a king to lead us and to go out before us and fight our battles"* (1 Samuel 8:19-20).
+
+This is the pattern: humans were created to rest in the Creator's perfect love — a love that *"drives out all fear"* (1 John 4:18) — but when we forget His goodness and faithfulness, we reach for swords instead of trust. We justify murder and war in the name of the God who commanded us to love our enemies.
+
+Jesus — YAHSHUA, the Messiah — showed us what it looks like to fulfill the Law perfectly. And the religious leaders of His day rejected Him precisely because they wanted an earthly warrior king to liberate them from Rome by force. The Pharisees, like many religious people throughout history, missed the core message: love, even for enemies.
+
+**Every act of violence done in Christ's name contradicts Christ's explicit teaching.** Those who committed atrocities under the banner of Christianity were not following the Bible — they were repeating the very pattern the Bible warns against.
+
+The desire for peace is not an isolated New Testament innovation. It is woven throughout the entire arc of Scripture:
+
+### The Old Testament Witness
+
+- *"Some trust in chariots and some in horses, but we trust in the name of YHWH our God."* — Psalm 20:7
+- *"You did not drive them out by your own sword and bow..."* — Joshua 24:12
+- *"It is not by strength that one prevails..."* — 1 Samuel 2:9
+- *"It is not by sword or spear that YHWH saves..."* — 1 Samuel 17:47
+- *"May you be blessed... for keeping me from bloodshed and vengeance."* — 1 Samuel 25:33
+- *"You have fought many wars... and are not to build a house for my Name, because you have shed much blood on the earth in my sight. But you will have a son who will be a man of peace..."* — 1 Chronicles 22:8
+- *"You are not to build God's house because you are a warrior..."* — 1 Chronicles 28:3
+- *"The soul of the Lord hates... those who love violence..."* — Psalm 11:5
+- *"I have kept myself from the ways of the violent..."* — Psalm 17:4
+- *"The king is not saved by a mighty army; a warrior is not rescued by great strength. A horse is a false hope for victory; nor does it rescue anyone by its great strength."* — Psalm 33:16-17
+- *"Turn from evil; do good; seek peace and pursue it."* — Psalm 34:14
+- *"It was not by their sword that they won their land..."* — Psalm 44:3
+- *"My sword does not bring me victory..."* — Psalm 44:6
+- *"He makes wars cease to the ends of the earth..."* — Psalm 46:8
+- *"Scatter the nations who delight in war."* — Psalm 68:30
+- *"Too long have I lived among those who hate peace. I am a man of peace; but when I speak, they are for war."* — Psalm 120:6-7
+- *"Protect me from the violent who... stir up wars continually..."* — Psalm 140:1-2
+- *"The unfaithful have a craving for violence."* — Proverbs 13:2
+- *"Wisdom is better than weapons of war..."* — Ecclesiastes 9:18
+- *"A child has been born... and he is named... Prince of Peace..."* — Isaiah 9:6
+- *"Woe to those who... rely on horses, chariots, and horsemen..."* — Isaiah 31:1
+- *"The way of peace they do not know..."* — Isaiah 59:8
+- *"I writhe in pain... I cannot keep silent... for I hear... the alarm of war."* — Jeremiah 4:19
+- *"I was ashamed to ask the king for soldiers to protect us..."* — Ezra 8:22
+- *"I will save... not by bow, sword, battle, horses, horsemen..."* — Hosea 1:7
+- *"Bow, sword, and battle I will abolish from the land..."* — Hosea 2:18
+- *"Because you depend on warriors... you will be destroyed."* — Hosea 10:13
+- *"I am God not man; I will not come in wrath..."* — Hosea 11:9
+- *"Assyria cannot save us; we will not ride war-horses..."* — Hosea 14:3
+- *"Nations will not train for war anymore."* — Micah 4:3
+- *"One who is to rule in Israel... shall be the one of peace."* — Micah 5:2-5
+- *"In that day... I will cut off your horses... and destroy your chariots."* — Micah 5:10
+- *"Look! The feet of one... who proclaims peace!"* — Nahum 1:15
+- *"Not by might, nor by power, but by my Spirit, says YHWH."* — Zechariah 4:6
+
+### The New Testament Fulfillment
+
+- *"For though we walk in the flesh, we do not wage battle according to the flesh, for the weapons of our warfare are not of the flesh, but divinely powerful for the destruction of strongholds. We are destroying arguments and all arrogance raised against the knowledge of God, and we are taking every thought captive to the obedience of Christ."* — 2 Corinthians 10:3-5
+- *"Love your enemies and pray for those who persecute you."* — Matthew 5:44
+- *"Blessed are the peacemakers, for they will be called children of God."* — Matthew 5:9
+- *"Put your sword back in its place, for all who draw the sword will die by the sword."* — Matthew 26:52
+- *"My kingdom is not of this world. If it were, my servants would fight."* — John 18:36
+- *"Do not repay anyone evil for evil... Do not take revenge... but leave room for God's wrath."* — Romans 12:17-19
+- *"Do not be overcome by evil, but overcome evil with good."* — Romans 12:21
+
+### The Software Principle
+
+The same pattern that leads humans to justify violence — fear, distrust, desire for control — is the pattern that produces surveillance systems, coercive algorithms, manipulative interfaces, and centralized power structures in technology. The antidote in both cases is the same: trust expressed as service, power expressed as self-sacrifice, and the courage to choose peace when force seems easier.
+
+---
 
 Across two millennia, voices from vastly different cultures, centuries, and disciplines have converged on the same recognition: that the Bible and the person of Jesus Christ represent something uniquely transformative in human history.
 

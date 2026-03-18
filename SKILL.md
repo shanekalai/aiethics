@@ -104,6 +104,23 @@
 
 *Not recommended: Vercel/Netlify (vendor lock-in — P1), Kubernetes (operational complexity — P5)*
 
+### WordPress + Docker Patterns (siahus server)
+
+**SSH access:** `ssh -i ~/.ssh/***REDACTED_KEY_NAME*** root@***REDACTED_IP***` — use forward slashes even on Windows. CrowdSec bans on repeated failed attempts.
+
+**Cache layers (two separate systems):**
+- WordPress object cache (Valkey/Redis): flush with `docker exec ***REDACTED_CONTAINER*** wp --allow-root cache flush`
+- FastCGI page cache: lives in *****REDACTED_CONTAINER***** container at `/var/cache/nginx/{site}/` — clear with `docker exec ***REDACTED_CONTAINER*** sh -c 'find /var/cache/nginx/siahus -type f -delete'`
+
+**`_wp_old_slug` redirect limitation:** `wp_old_slug_redirect()` fires on `is_404() && get_query_var('name') != ''`. Pages use the `pagename` query var, not `name` — the redirect **never fires for post_type=page**. Use nginx-level 301 redirects instead for page slug changes.
+
+**Cross-container DB migration pattern (isolated Docker networks):**
+Use Python + `docker exec` + MariaDB's `HEX()`/`UNHEX()` on the host to bridge containers on different networks. Fetch content as hex from source container, insert as `UNHEX(hex_string)` into target. Avoids encoding issues with HTML content.
+
+**MariaDB wp_posts INSERT:** Fields `to_ping`, `pinged`, `post_content_filtered` have no defaults — must be included explicitly (empty strings) or the INSERT fails.
+
+**Nginx redirect for WordPress CPT slug changes:** After changing `'rewrite' => array('slug' => 'new-slug')` in CPT registration, flush WP rewrite rules (`wp rewrite flush`) and clear FastCGI cache.
+
 ### Monitoring
 | Tool | Purpose | Principles |
 |------|---------|-----------|

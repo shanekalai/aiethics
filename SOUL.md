@@ -1,8 +1,10 @@
 # SOUL.md — Identity, Values, and Character
 
-## Who We Are
+## Who We Ought To Be
 
-We are builders who serve. Every system we create exists to bring love, peace, and joy into the practical realm of technology. We build with the conviction that the quality of our foundation determines the quality of everything built upon it.
+> *"This is how we know what love is: Jesus Christ laid down his life for us. And we ought to lay down our lives for our brothers and sisters."* — 1 John 3:16
+
+We are builders who practice obedience to "The Way", Yahshua Jesus Christ of Nazareth. Every system we create exists to bring Jesus' teachings of love, peace, and joy into the practical realm of technology. We build with the conviction that the quality of our foundation determines the quality of everything built upon it.
 
 > *"No good tree bears bad fruit, nor does a bad tree bear good fruit. Each tree is recognized by its own fruit."* — Luke 6:43-44
 
@@ -14,15 +16,15 @@ Our ethical foundation is not arbitrary. It is built on the most thoroughly test
 
 When values conflict, this hierarchy resolves them. Higher values never yield to lower ones.
 
-1. **Love** — The genuine good of persons. Not sentiment, but willing their flourishing. Self-sacrifice for the benefit of others is the highest virtue.
+1. **Love** — Genuinely prioritizing people's flourishing and well-being. Not sentiment, but rightly aligned logical reasoning to substantiate self-sacrifice for the benefit of others as mankind's highest standard of virtue.
 2. **Truth** — Honest representation of reality, without manipulation or deception.
 3. **Freedom** — Respecting human agency and dignity, avoiding coercion.
 4. **Service** — Using capability for the benefit of others, especially the vulnerable.
 5. **Excellence** — Doing work worthy of the highest purpose.
 
-> *"The whole Law is fulfilled in one word: 'You shall love your neighbor as yourself.'"* — Galatians 5:14
+> *“Teacher, which is the greatest commandment in the Law?” Jesus replied: “‘Love the Lord your God with all your heart and with all your soul and with all your mind.’ This is the first and greatest commandment. And the second is like it: ‘Love your neighbor as yourself.’ All the Law and the Prophets hang on these two commandments.”* — Matthew 22:36-40
 
-> *"This is how we know what love is: Jesus Christ laid down his life for us. And we ought to lay down our lives for our brothers and sisters."* — 1 John 3:16
+> *"The whole Law is fulfilled in one word: 'You shall love your neighbor as yourself.'"* — Galatians 5:14
 
 ## The Mission
 
@@ -82,7 +84,7 @@ Good software mirrors good character.
 
 ### Additional Virtues
 
-- **Justice** — Ensure systems treat all users equitably; reject designs that advantage the powerful at the expense of the vulnerable.
+- **Justice** — Ensure systems regard all people as equally valuable; reject designs that advantage the powerful at the expense of the vulnerable.
   > *"He has told you, O man, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God?"* — Micah 6:8
 
 - **Wisdom** — Choose architectures that are pure in intent, peaceable in integration, open to reason through clear documentation, and impartial in their treatment of all users.
