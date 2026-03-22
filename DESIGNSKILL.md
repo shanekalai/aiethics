@@ -85,9 +85,9 @@ Before deploying ANY file to the server:
 5. **Clear ALL caches** (both are required):
    ```bash
    # Valkey object cache (holds WordPress term cache, options, transients)
-   docker exec valkey valkey-cli FLUSHALL
+   docker exec <valkey-container> valkey-cli FLUSHALL
    # Nginx FastCGI page cache
-   docker exec ***REDACTED_CONTAINER*** sh -c 'find /var/cache/nginx/siahus -type f -delete'
+   docker exec <nginx-container> sh -c 'find /var/cache/nginx/<site> -type f -delete'
    ```
 6. **Visually verify** every affected page (see Post-Deploy Verification below)
 
@@ -149,8 +149,8 @@ npx playwright test tests/interactive/ --grep "screenshot" --project=mobile --re
 
 **For static pages (no interaction needed):**
 ```bash
-msedge --headless --screenshot=screenshots/{page}-desktop.png --window-size=1400,900 https://siahus.cloudbranch.co/{page}/
-msedge --headless --screenshot=screenshots/{page}-mobile.png --window-size=375,812 https://siahus.cloudbranch.co/{page}/
+msedge --headless --screenshot=screenshots/{page}-desktop.png --window-size=1400,900 https://<your-staging-domain>/{page}/
+msedge --headless --screenshot=screenshots/{page}-mobile.png --window-size=375,812 https://<your-staging-domain>/{page}/
 ```
 For JS-dependent pages add `--virtual-time-budget=5000`.
 
@@ -315,23 +315,16 @@ Layout:    --max-width(1400px), --header-height(110px), --radius-pill(9999px), -
 
 ## Server & Deployment
 
-**Theme path on server:**
-```
-***REDACTED_SERVER_PATH***
-```
+**Theme path on server:** Set in project-specific environment or `.env` file. Do not hardcode server paths, IPs, or credentials in committed files.
 
-**SSH:** `ssh -i ~/.ssh/***REDACTED_KEY_NAME*** root@***REDACTED_IP***`
-
-**Deploy via SCP:**
-```bash
-scp -i ~/.ssh/***REDACTED_KEY_NAME*** local-file \
-  root@***REDACTED_IP***:***REDACTED_SERVER_PATH***path/to/file
-```
+**Deploy via SCP:** Use SSH key-based authentication. Store connection details in `.env` or SSH config, not in version-controlled files.
 
 **Clear ALL caches after every deploy:**
 ```bash
-docker exec valkey valkey-cli FLUSHALL
-docker exec ***REDACTED_CONTAINER*** sh -c 'find /var/cache/nginx/siahus -type f -delete'
+# Valkey object cache
+docker exec <valkey-container> valkey-cli FLUSHALL
+# Nginx FastCGI page cache
+docker exec <nginx-container> sh -c 'find /var/cache/nginx/<site> -type f -delete'
 ```
 
 ---

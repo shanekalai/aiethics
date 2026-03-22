@@ -104,13 +104,11 @@
 
 *Not recommended: Vercel/Netlify (vendor lock-in — P1), Kubernetes (operational complexity — P5)*
 
-### WordPress + Docker Patterns (siahus server)
-
-**SSH access:** `ssh -i ~/.ssh/***REDACTED_KEY_NAME*** root@***REDACTED_IP***` — use forward slashes even on Windows. CrowdSec bans on repeated failed attempts.
+### WordPress + Docker Patterns
 
 **Cache layers (two separate systems):**
-- WordPress object cache (Valkey/Redis): flush with `docker exec ***REDACTED_CONTAINER*** wp --allow-root cache flush`
-- FastCGI page cache: lives in *****REDACTED_CONTAINER***** container at `/var/cache/nginx/{site}/` — clear with `docker exec ***REDACTED_CONTAINER*** sh -c 'find /var/cache/nginx/siahus -type f -delete'`
+- WordPress object cache (Valkey/Redis): flush with `docker exec <wp-container> wp --allow-root cache flush`
+- FastCGI page cache: lives in the nginx proxy container at `/var/cache/nginx/{site}/` — clear with `docker exec <nginx-container> sh -c 'find /var/cache/nginx/{site} -type f -delete'`
 
 **`_wp_old_slug` redirect limitation:** `wp_old_slug_redirect()` fires on `is_404() && get_query_var('name') != ''`. Pages use the `pagename` query var, not `name` — the redirect **never fires for post_type=page**. Use nginx-level 301 redirects instead for page slug changes.
 
